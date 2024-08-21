@@ -3,6 +3,8 @@ import RecipeList from './components/RecipeList';
 import RecipeDetail from './components/RecipeDetail';
 import RecipeForm from './components/RecipeForm'
 import { Container, Navbar, Nav, Row, Col } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   const [selectedRecipeId, setSelectedRecipeId] = useState(null);
